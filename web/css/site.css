@@ -82,3 +82,53 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+
+    background-color: #EFEFEF;
+
+}
+
+.inpur-search {
+    margin-top: -13px;
+    padding-left: 65px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 170px;
+    width: 550px;
+    height: 45px;
+}
+
+.text-header {
+    padding-left: 32px;
+    font-size: 12px;
+}
+
+.text-header-phone {
+    padding-left: 94px;
+    padding-right: 62px;
+    font-size: 12px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    justify-content: space-between;
+
+    background-color: #EFEFEF;
+}
+
+.text-footer {
+    padding-right: 150px;
+    padding-left: 32px;
+    font-size: 12px;
+    opacity: 50%;
+}
